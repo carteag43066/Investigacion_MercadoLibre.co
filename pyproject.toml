@@ -1,0 +1,22 @@
+[project]
+name = "inv-mercadolibre"
+version = "0.1.0"
+description = "Tratamiento de datos y web scraping"
+authors = [
+    {name = "carteag43066",email = "carteag43066@universidadean.edu.co"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "scrapegraphai (>=1.39.0,<2.0.0)",
+    "playwright (>=1.50.0,<2.0.0)",
+    "nltk (>=3.9.1,<4.0.0)"
+]
+
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
