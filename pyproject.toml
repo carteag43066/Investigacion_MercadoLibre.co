@@ -12,7 +12,11 @@ dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "scrapegraphai (>=1.39.0,<2.0.0)",
     "playwright (>=1.50.0,<2.0.0)",
-    "nltk (>=3.9.1,<4.0.0)"
+    "nltk (>=3.9.1,<4.0.0)",
+    "nest-asyncio (>=1.6.0,<2.0.0)",
+    "beautifulsoup4 (>=4.13.3,<5.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "ace-tools (>=0.0,<0.1)"
 ]
 
 package-mode = false
